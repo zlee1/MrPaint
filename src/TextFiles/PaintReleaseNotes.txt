@@ -1,0 +1,148 @@
+Mr. Paint 
+Version #1.0.0
+
+Release Notes:
+
+Version #1.0.0 (11/9/19)
+	-Javadoc developed
+	-Jar file
+
+Version #0.5.0 (10/6/19)
+New Features:
+	-Tooltips
+	-Collaboration Mode
+		-Start a collaborative server
+		-Join a collaborative server
+		-Work with friends!
+	-Layering
+		-Add layers
+		-Delete layers
+		-Make layers visible/invisible
+		-Move layers up or down
+		-Each layer has independent undo and redo functionality
+
+Version #0.4.0 (9/29/19)
+New Features:
+	-Work will autosave every 5 minutes if a filepath exists
+	-Saving will reset the autosave timer
+	-User can change the amount of time until autosave triggers
+	-User can also decide whether or not the autosave timer is visible
+	-User can turn off the autosave feature
+	-Bob Ross Mode fully implemented
+		-User can host a server
+		-User can connect to a server running on a different machine
+		-Hosting user will be broadcasting the contents of their canvas
+		-Client will be watching what the host draws
+	-Full 'Fro capabilities
+		-Multiple clients can connect to a single server
+		-These clients will be able to watch artwork of the host simultaneously
+	-User can only broadcast or watch in Bob Ross Mode at one time
+	-Redesigned toolbar to allow all tools to be visible on machines with smaller pixel counts
+
+Version #0.3.0 (9/21/19)
+New Features:
+	-User can now crop an image
+	-User can select and move a portion of the image
+	-Fill tool added
+	-User can draw n-sided regular polygons in addition to custom polygons
+	-User can delete a selected portion of the image
+	-User can drag on arrow icons surrounding the canvas in order to resize it
+	-User can flip an image horizontally and vertically
+	-Fixed a bug where canvas would not save if no file had been opened from start
+	-Cursor now changes to fill bucket when fill tool is being used
+	-User can now choose to save any image transparently. White pixels converted to transparent when this option is chosen.
+	-User can duplicate a selected portion of the canvas
+	-Fixed bug where selections would not disappear when creating new canvas, opening files, etc.
+	-Redesigned logo to have transparent background
+	-Release notes added to help menu
+	-Tool help added to help menu
+	-Fixed bug where duplicated selections were not added to undo
+
+Version #0.2.0 (9/13/19)
+New Features:
+	-Fixed bug where close action would cause toolbar to close regardless of whether or not user chooses to cancel closing
+	-Zoom level is now displayed at all times
+	-User can click on zoom label to restore zoom back to 100%
+	-Limit added to how far user can zoom out
+	-User can now use a color dropper to pick colors
+	-Color dropper selection causes cursor icon to change to color dropper icon
+	-Color Pickers will display color that user is hovering over while moving across canvas
+	-Selected color will become a saved custom color upon mouse click while in dropper mode
+	-When user clicks on a pixel to grab color of, they will now be automatically switched back to draw mode
+	-Fixed problem where user was still able to draw shapes when using color dropper
+	-Transparent pixels are now displayed as white when the image is opened
+	-Transparent images will now save transparently, however it takes a very long time to save
+	-Fixed bug where saving transparently only works once
+	-New alert shown when user opens image with transparently. Gives option to save with transparency or not
+	-User can now turn off transparent saving from options menu
+	-User can resize canvas and image
+	-Created Edit menu with Undo, Redo, and Resize MenuItems
+	-Created View menu with Zoom In and Zoom Out
+	-User can now undo canvas and image resizing
+	-User can draw squares
+	-User can draw circles
+	-Squares can be rounded
+	-Fixed bug where if the user did not click on a pixel while using color dropper, the color displayed on color pickers was not being used
+	-User can draw dotted lines
+	-User can draw dotted shapes
+	-User can draw images
+	-Fixed issues where squares and circles moved when dragging in different directions
+	-User can change freeform stroke type and draw with spraypaint texture
+	-Transparency no longer takes an eternity to save. Alert still present
+	-Bug fixed where if dotted line type was selected, polygon points would not be displayed
+	-User can now draw text
+	-User can select font size when drawing text
+	-Text preview now displays before user places text
+	-Text color can now be changed
+	-User can now draw with an airbrush tool
+
+Version #0.1.0 (9/8/19)
+New Features:
+	-User can draw lines
+        -User can select stroke color
+        -User can select stroke width
+        -Paint will now suggest saving when trying to close with unsaved work
+        -Canvas can now be scrolled through when larger than scene
+        -User can create a new file with custom dimensions
+        -Added shadow to canvas 
+        -Fixed bug causing saved images to cut off 4 pixels from right and bottom, and replace them with whitespace at top and left
+        -User can draw rectangles
+	-User can draw rounded rectangles
+	-User can customize arc width and arc height of rounded rectangles
+	-User can draw ellipses
+	-User can create polygons
+	-User can freedraw
+	-User can erase
+        -User can choose to have rectangles filled as they are drawn
+        -User can choose fill color
+        -User can select between certain shapes to draw
+	-User can change line cap
+        -Paint shows shape preview
+        -Undo Button
+	-Redo Button
+        -Fixed bug where images would not display on buttons
+	-Options menu
+	-User can turn canvas shadow off and on
+	-User can change color of canvas shadow
+	-User can change background
+	-Program renamed to Mr. Paint
+	-Java icon replaced by Mr. Paint icon
+	-Tools button causes toolbar to pop out of window
+	-Toolbar pops out of window when it exceeds the length of the stage
+	-Toolbar cannot be brought back to window unless stage is large enough to fit it
+	-Toolbar automatically returns to window if stage is maximized
+	-Help menu, where user can view Version Number
+	-Pressing the save button on a file that does not have a path will now call save as function
+	-Fixed bug where after scrolling, temporary shapes were misplaced
+	-User can zoom in and out 
+	-Fixed bug where after zooming, canvas would be shifted
+	-Fixed bug where scrollbars would not appear when necessary
+	-Shape-specific tools only displated when that shape is selected
+
+Version #0.0.0 (9/1/19) 
+New Features:
+	-User can select image file from file chooser
+        -Image will be displayed
+        -Image can be saved to existing file
+        -Image can be saved to new file as .png or .jpg
+        -Program can be closed

@@ -1,0 +1,5 @@
+None: 2
+Line: 3
+Freeform: 20
+Erase: 8
+Freeform: 17

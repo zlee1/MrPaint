@@ -1,0 +1,122 @@
+Mr. Paint Tools
+
+
+
+Shape Options:
+Stroke Color - Change the line color that surrounds shapes.
+Stroke Width - Change the thickness of the lines surrounding shapes
+Fill Color - Change the color of shape fill.
+Fill Checkbox - When checked, will fill the drawn shape.
+Stroke Type - When drawing in freeform, switch between different stroke designs.
+Line Cap - Change line ends between rounded or squared.
+Line Type - Switch between solid and dotted lines.
+Dot Length - If dotted lines are selected, change the length (in pixels) of the dots
+Rounded Checkbox - When checked, rectangles/squares will be drawn with rounded edges.
+Arc Width - When rounded checkbox selected, adjusts the width of the arc for rounded shapes.
+Arc Height - When rounded checkbox selected, adjusts the height of the arc for rounded shapes.
+Pick an Image Button - Select an image to draw when using image drawing tool.
+Choose Text Button - Enter the text to be drawn.
+Font Size - Adjust the size of the text being drawn when using text drawing tool.
+Crop - Crop the current image to the selected portion of the canvas.
+Deselect - Remove selection.
+Make Button - Connect user-placed dots when using Custom Polygon tool.
+Number of Sides - Choose the number of sides for the shape being drawn when using Regular Polygon tool.
+
+
+
+Drawing Tools:
+None
+Nothing will be drawn.
+
+Freeform (F)
+Click and drag in order to draw free of all directional restrictions.
+
+Line (L)
+Click, drag, and release from one point to another in order to draw a line from the starting point to the ending point. 
+
+Erase (A)
+Click and drag in order to clear all ink in a freeform-like manner.
+
+Rectangle (R)
+Click, drag, and release from one point to another in order to draw a rectangle from the starting point to the ending point.
+
+Ellipse (E)
+Click, drag and release from one point to another in order to draw an ellipse between the starting point and the ending point.
+
+Image (I)
+Click the "Pick an Image" button in order to select the image that you want to draw. Then simply use the tool like a rectangle and the image will be drawn. 
+
+Text (T)
+Click the "Choose Text" button in order to enter the text that you want to draw. Then click and drag to place the text.
+
+Select (M)
+Draw a rectangle of the area that you want to select. This area can be moved, deleted, or cropped to.
+
+Fill (B)
+Click on a portion of the image to fill that area with the specified fill color.
+
+Square (S)
+Click, drag, and release from one point to another in order to draw a square from the starting point to the ending point.
+
+Circle (C)
+Click, drag, and release from one point to another in order to draw a circle with a center at the starting point and radius as X distance from release point to starting point.
+
+Custom Polygon (P)
+Place points by clicking, and connect them by pressing the "Make" button.
+
+Regular Polygon (G)
+Click, drag, and release from one point to another in order to draw a regular polygon with a center at the starting point, radius as X distance from release point to starting point, and the specified number of sides.
+
+
+
+Other Tools:
+Dropper Tool (D)
+Hover over pixels in order to see what color they are. Click to set the stroke and fill color to the color of the pixel clicked on.
+
+New File (Ctrl+N)
+Create a new blank canvas with given dimensions. Default is 700x700.
+
+Open (Ctrl+O)
+Pick an image file to open, and then display that image.
+
+Save (Ctrl+S)
+Save the current work to its file path if it already exists. If not, will use Save As instead.
+
+Save As 
+Save the current work to a specified path.
+
+Undo (Ctrl+Z)
+Undo the most recent action.
+
+Redo (Ctrl+Y)
+Redo the most recently undone action.
+
+Zoom In
+Zoom in on the top left corner of the current work.
+
+Zoom Out
+Zoom out from the top left corner of the current work.
+
+Zoom Label
+Click on the current zoom in order to restore 100% zoom.
+
+Resize Arrows
+Click and drag to resize the canvas. New area will be filled white.
+
+Exit (Found under File menu)
+Close Mr. Paint.
+
+Flip Horizontally (Found under Edit menu)
+Flip the current work horizontally.
+
+Flip Vertically (Found under Edit menu)
+Flip the current work vertically.
+
+Resize (Found under Edit menu)
+Resize the current work to given dimensions. This will warp image if given dimensions are not the same ratio as original dimensions.
+
+Options (Found under Tools menu)
+Access a variety of options to change. 
+
+About (Found under Help menu)
+View the version number and release notes of Mr. Paint.
